@@ -1,6 +1,10 @@
 body{
     font-family: 'Montserrat', sans-serif !important;
 }
+.navbar-item img {
+    height: 70px !important;
+    max-height: 70px !important;
+}
 .vertical{
     text-align: center;
     writing-mode: vertical-lr;
@@ -8,42 +12,34 @@ body{
     float: left; 
     height: 100%;
 }
-.navbar{
-    background-color: transparent !important;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-}
-.navbar-item > img{
-    max-height: 100% !important;
-    border-radius: 50% !important;
-}
-.navbar-item {
-    color:#fff ;
-}
-.navbar-item:hover {
-    background-color: transparent !important;
-    color:#f1d329 !important;
-}
-.navbar-item:active {
-    color:#f1d329 !important;
-}
 .contacto{
     padding: 5%;
-    border-radius: 5%;
+    border-radius: 25px;
     box-shadow: 5px 5px 40px #999999;
 }
-.hero ul li {
-    padding: 10px 0px;
+.presentacion {
+    height: 100%;
+    padding: 20px !important;
+    border-radius: 25px;
+    box-shadow: 5px 5px 40px #999999;
 }
-.hero  ul  li a{
-    color:white;
+.bio {
+    border-right: solid 1px #00D1B2;
+}
+.bio .avatar {
+    border-radius: 50%;
+    height: 200px;
+}
 
+.icono{
+    height: 50px;
+    width: 50px;
 }
-.hero  ul  li a:hover {
-    background-color:#0000; 
-    color:white;
+
+.skills{
+    padding: 10px;
 }
+
 .card{
     margin: 5px !important;
 }
@@ -51,14 +47,11 @@ body{
 .social li{
     display: inline-block;
 }
-.verde{
-    background-color: #000000 !important;
-}
 .icono-redondo{
     height: 100px !important;
     width: 100px !important;
     border-radius: 50% !important;
-    background-color: #000 !important;
+    background-color: #00D1B2 !important;
     margin-top: 20px !important;
     color: #fff;
     border: solid 2px #fff;
@@ -102,7 +95,7 @@ body{
     transform: scale(1.2) !important;
 }
 .slider-navigation-previous{
-    background: #000 !important;
+    background: #00D1B2 !important;
     color:#fff !important;
 }
 .is-outlined{
@@ -135,6 +128,36 @@ body{
 .baja{
     bottom:0;
     vertical-align: bottom;
+}
+progress {
+    border: none;
+    width: 200px;
+    height: 10px;
+    background: #00D1B2;
+    border-radius: 25px;
+    color: lightblue;
+    margin-top: 0;
+}
+  
+  
+progress::-webkit-progress-value {
+    background: #00D1B2;
+    border-radius: 25px;
+}
+  
+progress::-moz-progress-bar {
+    background: lightblue;
+    border-radius: 25px;
+}
+  
+progress::-webkit-progress-value {
+    background: #00D1B2;
+    border-radius: 25px;
+}
+  
+progress::-webkit-progress-bar {
+    border-radius: 25px;
+    background: lightblue;
 }
 @media only screen and (max-width:768px){
     .banner{
@@ -171,16 +194,16 @@ body{
         height: 580px !important;
         
     }
-    #about {
+    /* #about {
         background-image: linear-gradient(
             rgba(0,0,0,.8),
             rgba(0,0,0,.8)
         ),
         url('../assets/panel2.jpg');
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
-    }
+        background-position: center; /* Center the image 
+        background-repeat: no-repeat; /* Do not repeat the image 
+        background-size: cover; /* Resize the background image to cover the entire container 
+    } */
     #mensaje1{
         display: none;
     }
@@ -209,16 +232,16 @@ body{
        
     }
     
-    #about {
+    /* #about {
         background-image: linear-gradient(
             rgba(0,0,0,.8),
             rgba(0,0,0,.8)
         ),
         url('../assets/panel2.jpg');
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: cover; /* Resize the background image to cover the entire container */
-    }
+        background-position: center; /* Center the image 
+        background-repeat: no-repeat; /* Do not repeat the image 
+        background-size: cover; /* Resize the background image to cover the entire container 
+    } */
     #somos{
         margin-top: 10%;
         

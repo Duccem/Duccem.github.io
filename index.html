@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./assets/logo-personal-negro.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-timeline@3.0.4/dist/css/bulma-timeline.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/animate.css">
     <script src="https://kit.fontawesome.com/7c8c8a2dc9.js"></script>
@@ -17,195 +17,211 @@
 </head>
 
 <body>
-    <nav class="navbar " role="navigation" aria-label="main navigation">
-        <div class="container">
-            
-            <div id="navbarBasicExample" class="navbar-menu">
-                <a href="#services" class="navbar-item ">Services</a>
-                <a href="#about" class="navbar-item ">About me</a>
-                <a href="#resume" class="navbar-item ">Resume</a>
-                <a href="#projects" class="navbar-item ">Portafolio</a>
-                <a href="#contact" class="navbar-item ">Contact</a>
-            </div>
-            <div class="navbar-brand">
-                <a class="navbar-item" target="_blank" href="https://www.linkedin.com/in/jose-manuel-veliz-9009b9151/">
-                    <img src="./assets/jose.jpg" width="50">
-                </a>
-                <a role="button" class="navbar-burger burger is-size-3" aria-label="menu" aria-expanded="true"
-                    data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-        </div>
-    </nav>
-    <section class="section  is-12 seccion is-paddingless" id="home">
-        <div class="columns  animated fadeIn delay is-gapless is-vcentered" id="primer-panel">
-            <div class="column ">
-                <div class="columns introduccion is-vcentered is-centered" id="intro">
-                    <div class="column has-text-centered animated fadeIn">
-
-                        <h2 class="title titulo has-text-white"><br>
-                            José Véliz <br>
-                        </h2>
-                        <br>
-                        <br><br><br><br><br>
-                        <a href="#contact" class="button has-background-black has-text-white is-rounded is-size-3">Contact</a>
+    <section class="hero is-primary  is-fullheight">
+        <div class="hero-head">
+            <header class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a href="" class="navbar-item">
+                            <img src="./assets/logo-personal-blanco.png" style="height: 80px;" alt="">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroC" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a href="#about" class="navbar-item has-text-white">About</a>
+                            <a class="navbar-item has-text-white">Curriculum</a>
+                            <a class="navbar-item has-text-white">Portafolio</a>
+                            <a class="navbar-item has-text-white">Contact</a>
+                            <span class="navbar-item">
+                                <a class="button is-primary is-inverted">
+                                    <span class="icon"><i class="fab fa-github"></i></span>
+                                    <span>GitHub</span>
+                                </a>
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </header>
         </div>
-    </section>
-    <section id="services" class="section seccion">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-12 has-text-centered  has-text-black">
-                    <h4 class="is-size-1">I can make</h4>
-                    <br>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="card column verde has-text-centered has-text-white left">
-                    <img src="./assets/desarrollo2.jpg" class="img-avatar-bordered" alt="">
-                    <h3 class="is-size-5">Web sites</h3><br>
-                    <span class="icon is-size-3"><i class="fas fa-code"></i></span><br>
-                    <p>I offer you landings, advertising pages and more.</p>
-
-                </div>
-                <div class="card column has-text-centered verde has-text-white left">
-                    <img src="./assets/apps.jpeg" class="img-avatar-bordered" alt="">
-                    <h3 class="is-size-5">Mobile/Desktop Apps</h3><br>
-                    <span class="icon is-size-3"><i class="fas fa-mobile"></i></span>
-                    <p>Tools, games and mobile systems.</p>
-
-                </div>
-
-                <div class="card column has-text-centered verde has-text-white left">
-                    <img src="./assets/web.jpg" class="img-avatar-bordered" alt="">
-                    <h3 class="is-size-5">Web apps</h3><br>
-                    <span class="icon is-size-3"><i class="fas fa-rocket"></i></span>
-                    <p>Apps and information systems to digitize your business</p>
-                </div>
-                <div class="card column has-text-centered verde has-text-white left">
-                    <img src="./assets/servidores.jpg" class="img-avatar-bordered" alt="">
-                    <h3 class="is-size-5">Web services</h3><br>
-                    <span class="icon is-size-3"><i class="fas fa-globe"></i></span>
-                    <p>APIs, microservices, scraping and data analysis.</p>
-
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div>
+                        <h1 class="title is-size-1">José Véliz (Duccem)</h1>
+                        <h2 class="subtitle is-size-2">Backend Developer</h2>
+                    </div>
+                    <img src="./assets/undraw_programming_2svr.svg" style="height: 300px;" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <section class="section seccion" style="background-color: #E0E0E0" id="about">
-        <div class="container " style="margin-top: 52px">
-            <div class="columns is-vcentered">
-                <div class="column ">
-                    <h3 class="is-size-1 has-text-white has-text-centered right">Who i am?</h3>
-                    <p class="has-text-white has-text-justified is-size-5">
+    <section class="section seccion has-background-primary" id="about">
+        <div class="card presentacion">
+            <div class="columns card-content ">
+                <h4></h4>
+                <div class="column is-3 bio has-text-centered">
+                    <h2 class="has-text-centered has-text-primary is-size-3">Who i am?</h2>
+                    <img src="./assets/jose.jpg" class="avatar" alt="">
+                    <h3 class="has-text-centered">José Véliz (Duccem)</h3><br>
+                    <p class=" has-text-justified is-italic">
                         I am a young developer who has dedicated
                         most of his career to backend development,
                         I love programming because it allows me to
                         make every one of the things that I have in
-                        mind come true, it's like doing magic and
-                        the code is my spells, I am a big fan of video games,
-                        fantasy and fiction, is like
-                        traveling to incredible worlds just using imagination,
-                        so I like to take that to my work and give a magical
-                        and imaginative touch to my projects, whether they are
-                        websites, incredible applications or even videogames
-                        that allow us to enter into these worlds.</p>
+                        mind come true.</p>
                 </div>
-            </div>
-            <div class="columns" id="somos">
-                <h4 class="is-size-3 column is-3 has-text-white animated fadeInDown">🎮 Passionate about games</h4>
-                <h4 class="is-size-3 column is-3 has-text-white animated fadeInDown">Never stop learning 📖</h4>
-                <h4 class="is-size-3 column is-3 has-text-white animated fadeInDown">I 💖 programming</h4>
-                <h4 class="is-size-3 column is-3 has-text-white animated fadeInDown">💻 A better world with code</h4>
+                <div class="container skills">
+                    <h5 class="has-text-centered has-text-primary is-size-2">What are my skills?</h5>
+                    <p class="has-text-centered is-italic">
+                        I have dedicated more than two years to developing applications and microservices systems with
+                        nodejs, python and golang, developed frontend, desktop and mobile applications with vuejs,
+                        electron and ionic
+                    </p>
+                    <br><br><br><br>
+                    <div class="columns">
+                        <div class="column">
+                            <div class="">
+                                <img src="./assets/javascript-icon.png" class="icono" title="Javascript" li>
+                                <progress max="100" value="90"> </progress>
+                            </div>
+                            <div class="">
+                                <img src="./assets/node-icon.png" class="icono" title="NodeJS">
+                                <progress max="100" value="90"> </progress>
+                            </div>
+                            <div class="">
+                                <img src="./assets/vue-icon.png" class="icono" title="VueJS">
+                                <progress max="100" value="90"> </progress>
+                            </div>
+                            <div class="">
+                                <img src="./assets/python-icon.png" class="icono" title="Python">
+                                <progress max="100" value="60"> </progress>
+                            </div>
+
+                        </div>
+                        <div class="column">
+                            <div class="">
+                                <img src="./assets/golang-icon.png" class="icono" title="Golang">
+                                <progress max="100" value="60"> </progress>
+                            </div>
+                            <div class="">
+                                <img src="./assets/git-icon.png" class="icono" title="Git & github">
+                                <progress max="100" value="90"> </progress>
+                            </div>
+                            <div class="">
+                                <img src="./assets/docker-icon.png" class="icono" title="Docker">
+                                <progress max="100" value="50"> </progress>
+                            </div>
+                            <div class="">
+                                <img src="./assets/graphql-icon.png" class="icono" title="GraphQL">
+                                <progress max="100" value="50"> </progress>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="">
+                                <img src="./assets/mariadb-icon.png" class="icono" title="MariaDB & MySQL">
+                                <progress max="100" value="90"> </progress>
+                            </div>
+                            <div class="">
+                                <img src="./assets/mongodb-icon.png" class="icono" title="MongoDB">
+                                <progress max="100" value="90"> </progress>
+                            </div>
+                            <div class="">
+                                <img src="./assets/post-icon.png" class="icono" title="PostgresQL">
+                                <progress max="100" value="60"> </progress>
+                            </div>
+                            <div class="">
+                                <img src="./assets/redis-icon.png" class="icono" title="Redis">
+                                <progress max="100" value="60"> </progress>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
     </section>
-    <section class="section seccion" id="resume">
-        <div class="container"  style="margin-top: 52px">
-            <h3 class="has-text-centered has-text-black is-size-1">Skills</h3><br>
-            <div class="columns bot">
-                <div class="column">
-                    <h4 class="has-text-black"><strong>BackEnd</strong> 🖥</h4><br>
-                    <ul>
-                        <li type="disc">NodeJS/Express</li type="disc">
-                        <li type="disc">PHP/Laravel</li>
-                        <li type="disc">MySQL</li>
-                        <li type="disc">MongoDB</li>
-                        <li type="disc">GraphQL</li>
-                        <li type="disc">SocketIO</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h4 class="has-text-black"><strong>FrontEnd</strong> 🚀</h4><br>
-                    <ul>
-                        <li type="disc">VueJS</li>
-                        <li type="disc">ReactJS</li>
-                        <li type="disc">SASS/LESS</li>
-                        <li type="disc">HTML5/CSS3/JavaScript</li>
-                        <li type="disc">Axios</li>
-                        <li type="disc">RxJS</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h4 class="has-text-black"><strong>Mobile and Desktop</strong> 📱</h4><br>
-                    <ul>
-                        <li type="disc">Ionic</li>
-                        <li type="disc">React Native</li>
-                        <li type="disc">Electron</li>
-                        <li type="disc">Unity3D</li>
-                        <li type="disc">.NET</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h4 class="has-text-black"><strong>Others</strong> ✨</h4><br>
-                    <ul>
-                        <li type="disc">Wordpress</li>
-                        <li type="disc">Python</li>
-                        <li type="disc">Postgresql</li>
-                        <li type="disc">Photoshop</li>
-                    </ul>
+    <section class="section seccion" id="cv">
+        <div class="columns">
+            <div class="column">
+                <h3 class="has-text-centered has-text-primary is-size-1">Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-header">
+                        <span class="tag is-medium is-primary">Start</span>
+                    </div>
+                    <div class="timeline-item is-primary">
+                        <div class="timeline-marker is-primary is-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <p class="heading">Backend Developer at Somos Sistemas C.A</p>
+                            <p class="heading">(2019-01-23 / present)</p>
+                            <p>As a backend developer, my main job was the maintenance
+                                of legacy applications of administrative type, also the
+                                development of REST APIs for the consumption of the
+                                different applications of the aftim suite, also the
+                                implementation of air route web services.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item is-primary">
+                        <div class="timeline-marker is-primary is-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <p class="heading">Gameplay programmer at Capitanos Studios</p>
+                            <p class="heading">(2019-11-05 / 2019-20-04)</p>
+                            <p>I had the opportunity to participate as a gameplay
+                                programmer of a mobile video game called Darkzone,
+                                responsible for the development of chat systems,
+                                fights and stats. The integration of websockets technology
+                                to the connection with other players around the world.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-header">
+                        <span class="tag is-medium is-primary">End</span>
+                    </div>
                 </div>
             </div>
-            <h3 class="has-text-centered has-text-black is-size-1">Experience</h3>
-            <div class="columns bot">
-                <div class="column">
-                    <h4><strong>Backend Developer at Somos Sistemas C.A</strong></h4>
-                    <h4>(2019-01-23 / present)</h4><br>
-                    <p>As a backend developer, my main job was the maintenance
-                        of legacy applications of administrative type, also the
-                        development of REST APIs for the consumption of the
-                        different applications of the aftim suite, also the
-                        implementation of air route web services.</p>
-                </div>
-                <div class="column">
-                    <h4><strong>Gameplay programmer at Capitanos Studios</strong></h4>
-                    <h4>(2019-11-05 / 2019-20-04)</h4><br>
-                    <p>I had the opportunity to participate as a gameplay
-                        programmer of a mobile video game called Darkzone,
-                        responsible for the development of chat systems,
-                        fights and stats.</p>
-                </div>
-            </div>
-            <h3 class="has-text-centered has-text-black is-size-1">Studies</h3>
-            <div class="columns bot">
-                <div class="column">
-                    <h4><strong>Degree in computer science at Universdad De Oriente</strong></h4>
-                    <h4>(2017-11-05 / present)</h4><br>
-                    <p>I am a computer science student at the Universidad de Oriente,
-                        where I specialize in different branches, programming and data structures,
-                        networks and security, systems design and data analysis.</p>
-                </div>
-                <div class="column">
-                    <h4><strong>Backend on NodeJS on Platzi</strong></h4>
-                    <h4>(2019-01-20 / 2019-06-09)</h4><br>
-                    <p>I have complemented my education with the
-                        best Spanish-language online learning platform,
-                        specializing in the backend development career with NodeJS.</p>
+            <div class="column">
+                <h3 class="has-text-centered has-text-primary is-size-1">Studies</h3>
+                <div class="timeline is-rtl">
+                    <div class="timeline-header">
+                        <span class="tag is-medium is-primary">Start</span>
+                    </div>
+                    <div class="timeline-item is-primary">
+                        <div class="timeline-marker is-primary is-icon">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <p class="heading">Degree in computer science at Universdad De Oriente</p>
+                            <p class="heading">(2017-11-05 / present)</p>
+                            <p>I am a computer science student at the Universidad de Oriente,
+                                where I specialize in different branches, programming and data structures,
+                                networks and security, systems design and data analysis.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item is-primary">
+                        <div class="timeline-marker is-primary is-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <p class="heading">Backend on NodeJS on Platzi</p>
+                            <p class="heading">(2019-01-20 / 2019-06-09)</p>
+                            <p> have complemented my education with the
+                                best Spanish-language online learning platform,
+                                specializing in the backend development career with NodeJS.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-header">
+                        <span class="tag is-medium is-primary">End</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -214,13 +230,54 @@
         <div class="container">
             <div class="columns ">
                 <div class="column is-12 has-text-centered">
-                    <h4 class="is-size-5 has-text-black">ACCOMPLISHMENTS</h4>
-                    <h4 class="is-size-1">Portafolio</h4>
+                    <h4 class="is-size-5 has-text-primary">ACCOMPLISHMENTS</h4>
+                    <h4 class="is-size-1 has-text-primary">Portfolio</h4>
                     <br>
-                    <p class="is-size-6">
+                    <p class="is-italic is-size-6">
                         Part of the projects in which i have participated or that i am still developing
                     </p>
                 </div>
+            </div>
+            <div class="columns">
+                <div class="column is-4 item-1 card is-paddingless">
+                    <div class="card-image">
+                        <figure class="image is-5by3">
+                            <img src="./assets/ducengur.png" alt="Placeholder image">
+                        </figure>
+                        <div class="text animated fadeIn has-text-centered">
+                            <br><br>
+                            <h3>Ducengur</h3>
+                            <span>Clone of Imgur with Node and MongoDB</span><br><br>
+                            <a class="button is-outlined has-text-white" href="https://ducengur.herokuapp.com/">
+                                See project
+                            </a>
+                            <a class="button is-outlined has-text-white"
+                                href="http://github.com/Duccem/practica-redsocial/">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4 item-1 card is-paddingless">
+                    <div class="card-image">
+                        <figure class="image is-5by3">
+                            <img src="./assets/ducengram.png" alt="Placeholder image">
+                        </figure>
+                        <div class="text animated fadeIn has-text-centered">
+                            <br><br>
+                            <h3>Ducengram</h3>
+                            <span>Clone of instagram with Django and MySQL</span><br><br>
+                            <a class="button is-outlined has-text-white" href="https://ducengram.herokuapp.com/">
+                                See project
+                            </a>
+                            <a class="button is-outlined has-text-white" href="http://github.com/Duccem/ducengram/">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
             <div class="columns">
                 <div class="column is-4 item-1 card is-paddingless">
@@ -232,25 +289,11 @@
                             <br><br>
                             <h3>Calculadora Aftim</h3>
                             <span>Web App</span><br><br>
-                            <a class="button is-outlined has-text-white" 
-                            href="http://somossistemas.com/aftimcalc">
-                                See project 
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-4 item-2 card  is-paddingless">
-                    <div class="card-image ">
-                        <figure class="image is-5by3">
-                            <img src="./assets/aftimpag.png" alt="Placeholder image">
-                        </figure>
-                        <div class="text animated fadeIn has-text-centered">
-                            <br><br>
-                            <h3>Aftim Software</h3>
-                            <span>Wordpress landing page</span><br><br>
-                            <a class="button is-outlined has-text-white" 
-                                href="https://aftim.software/">
+                            <a class="button is-outlined has-text-white" href="http://somossistemas.com/aftimcalc">
                                 See project
+                            </a>
+                            <a class="button is-outlined has-text-white" href="http://somossistemas.com/aftimcalc">
+                                View Code
                             </a>
                         </div>
                     </div>
@@ -264,8 +307,7 @@
                             <br><br>
                             <h3>Power chat</h3>
                             <span>SPA with VueJS</span><br><br>
-                            <a class="button is-outlined has-text-white" 
-                                href="">
+                            <a class="button is-outlined has-text-white" href="">
                                 See project
                             </a>
                         </div>
@@ -277,57 +319,62 @@
     <section class="section seccion" id="contact">
         <div class="container">
             <div class="columns">
-                <div class="column is-12 has-text-centered  has-text-black">
+                <div class="column is-12 has-text-centered  has-text-primary">
                     <h4 class="is-size-1">Contact Me</h4>
                     <br>
                 </div>
             </div>
             <div class="columns is-vcentered">
-                <div class="card contact column verde has-text-white has-text-centered bot">
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=584121802961&text=Hi, i'm insterested on your services"><span class="icono-redondo icon is-size-2"><i class="fab fa-whatsapp"></i></span></a>
-                    <h3  class="is-size-5" style="margin-top: 50px">WHATSAPP</h3 ><br>
+                <div class="card contact column has-background-primary has-text-white has-text-centered bot">
+                    <a target="_blank"
+                        href="https://api.whatsapp.com/send?phone=584121802961&text=Hi, i'm insterested on your services"><span
+                            class="icono-redondo icon is-size-2"><i class="fab fa-whatsapp"></i></span></a>
+                    <h3 class="is-size-5" style="margin-top: 50px">WHATSAPP</h3><br>
                     <h3 class="is-size-6">+58 412 1802961</h3>
                 </div>
-                
-                <div class="card contact column verde has-text-white has-text-centered bot">
-                    <a target="_blank" href="mailto:ducen29@gmail.com"><span class="icono-redondo icon is-size-2"><i class="far fa-envelope"></i></span></a>
+
+                <div class="card contact column has-background-primary has-text-white has-text-centered bot">
+                    <a target="_blank" href="mailto:ducen29@gmail.com"><span class="icono-redondo icon is-size-2"><i
+                                class="far fa-envelope"></i></span></a>
                     <h3 class="is-size-5" style="margin-top: 50px">EMAIL</h3><br>
                     <h3 class="is-size-6">ducen29@gmail.com</h3>
                 </div>
-                
-                <div class="card contact column verde has-text-white has-text-centered bot">
-                    <a target="_blank" href="https://www.linkedin.com/in/jose-manuel-veliz-9009b9151/"><span class="icono-redondo icon is-size-2"><i class="fab fa-linkedin"></i></span></a>
+
+                <div class="card contact column has-background-primary has-text-white has-text-centered bot">
+                    <a target="_blank" href="https://www.linkedin.com/in/jose-manuel-veliz-9009b9151/"><span
+                            class="icono-redondo icon is-size-2"><i class="fab fa-linkedin"></i></span></a>
                     <h3 class="is-size-5" style="margin-top: 50px">Linkedin</h3><br>
                     <h3 class="is-size-6">José Manuel Véliz</h3>
                 </div>
-                <div class="card contact column verde has-text-white has-text-centered bot">
-                    <a target="_blank" href="https://github.com/Duccem"><span class="icono-redondo icon is-size-2"><i class="fab fa-github"></i></span></a>
+                <div class="card contact column has-background-primary has-text-white has-text-centered bot">
+                    <a target="_blank" href="https://github.com/Duccem"><span class="icono-redondo icon is-size-2"><i
+                                class="fab fa-github"></i></span></a>
                     <h3 class="is-size-5" style="margin-top: 50px">Github</h3><br>
                     <h3 class="is-size-6">Duccem</h3>
                 </div>
 
             </div>
             <div class="columns" style="margin-top: 52px">
-                <div class="column is-12 has-text-centered  has-text-black">
-                    <h4 class="is-size-1">Share your idea</h4>
+                <div class="column is-12 has-text-centered  has-text-primary">
+                    <h4 class="is-size-1">Chat with me</h4>
                     <br>
                 </div>
             </div>
             <div class="columns is-centered ">
-                <div class="column card contacto is-7">
+                <div class="column card contacto is-10">
                     <div class="columns">
                         <div class=" column field">
-                            <label class="label">Nombre</label>
+                            <label class="label has-text-primary">Nombre</label>
                             <div class="control has-icons-left">
-                                <input class="input is-black" type="text" id="nombre" name="nombre"
+                                <input class="input is-primary" type="text" id="nombre" name="nombre"
                                     placeholder="Your Name">
                                 <span class="icon is-small is-left"><i class="fas fa-user"></i></span>
                             </div>
                         </div>
                         <div class=" column field">
-                            <label class="label">Correo</label>
+                            <label class="label has-text-primary">Correo</label>
                             <div class="control has-icons-left">
-                                <input class="input is-black" type="text" id="correo" name="correo"
+                                <input class="input is-primary" type="text" id="correo" name="correo"
                                     placeholder="Your Mail">
                                 <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
                             </div>
@@ -335,9 +382,9 @@
                     </div>
                     <div class="columns">
                         <div class=" column field">
-                            <label class="label">Subject</label>
+                            <label class="label has-text-primary">Subject</label>
                             <div class="control has-icons-left">
-                                <input class="input is-black" type="text" id="subject" name="nombre"
+                                <input class="input is-primary" type="text" id="subject" name="nombre"
                                     placeholder="Subject">
                                 <span class="icon is-small is-left"><i class="fas fa-at"></i></span>
                             </div>
@@ -345,15 +392,16 @@
                     </div>
                     <div class="columns">
                         <div class=" column field">
-                            <label class="label">Message</label>
+                            <label class="label has-text-primary">Message</label>
                             <div class="control">
-                                <textarea class="textarea is-black" id="message" name="message" cols="30"
+                                <textarea class="textarea is-primary" id="message" name="message" cols="30"
                                     rows="5"></textarea>
                             </div>
                         </div>
                     </div>
                     <div class="columns is-centered">
-                        <a class="column is-12 button has-text-black is-rounded is-black is-outlined is-size-5" id="send">Send Message</a>
+                        <a class="column is-12 button is-primary  is-size-5"
+                            id="send">Send Message</a>
                     </div>
                 </div>
             </div>
@@ -361,27 +409,35 @@
 
         </div>
     </section>
-    <footer class="footer verde has-text-white">
+    <footer class="footer has-background-primary has-text-white">
         <div class="container">
             <div class="columns">
                 <div class="column has-text-centered">
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=584121802961&text=Hi, i'm insterested on your services"><span class="icono-redondo is-size-4 icon"><i class="fab fa-whatsapp"></i></span></a>
-                    <a target="_blank"  href="mailto:ducen29@gmail.com"><span class="icono-redondo is-size-4 icon"><i class="far fa-envelope"></i></span></a>
-                    <a target="_blank"  href="https://www.linkedin.com/in/jose-manuel-veliz-9009b9151/"><span class="icono-redondo is-size-4 icon"><i class="fab fa-linkedin"></i></span></a>
-                    <a target="_blank" href="https://github.com/Duccem"><span class="icono-redondo is-size-4 icon"><i class="fab fa-github"></i></span></a>
-                    <a target="_blank" href="https://t.me/Ducen29"><span class="icono-redondo is-size-4 icon"><i class="fab fa-telegram-plane"></i></span></a>
-                    <a target="_blank" href="https://twitter/Ducen29"><span class="icono-redondo is-size-4 icon"><i class="fab fa-twitter"></i></span></a>
-                    <a target="_blank" href="https://www.instagram.com/ducen_29/"><span class="icono-redondo is-size-4 icon"><i class="fab fa-instagram"></i></span></a>
+                    <a target="_blank"
+                        href="https://api.whatsapp.com/send?phone=584121802961&text=Hi, i'm insterested on your services"><span
+                            class="icono-redondo is-size-4 icon"><i class="fab fa-whatsapp"></i></span></a>
+                    <a target="_blank" href="mailto:ducen29@gmail.com"><span class="icono-redondo is-size-4 icon"><i
+                                class="far fa-envelope"></i></span></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/jose-manuel-veliz-9009b9151/"><span
+                            class="icono-redondo is-size-4 icon"><i class="fab fa-linkedin"></i></span></a>
+                    <a target="_blank" href="https://github.com/Duccem"><span class="icono-redondo is-size-4 icon"><i
+                                class="fab fa-github"></i></span></a>
+                    <a target="_blank" href="https://t.me/Ducen29"><span class="icono-redondo is-size-4 icon"><i
+                                class="fab fa-telegram-plane"></i></span></a>
+                    <a target="_blank" href="https://twitter/Ducen29"><span class="icono-redondo is-size-4 icon"><i
+                                class="fab fa-twitter"></i></span></a>
+                    <a target="_blank" href="https://www.instagram.com/ducen_29/"><span
+                            class="icono-redondo is-size-4 icon"><i class="fab fa-instagram"></i></span></a>
                 </div>
             </div>
-            <p class="has-text-centered" style="margin-top: 20px">Copyright ©2020 All rights reserved | José Manuel Véliz</p>
+            <p class="has-text-centered" style="margin-top: 20px">Copyright ©2020 All rights reserved | José Manuel
+                Véliz</p>
         </div>
     </footer>
 
     <script src="./js/animaciones.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@6.2.7/dist/js/bulma-extensions.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
     <script src="./js/funciones.js"></script>
 </body>
 
